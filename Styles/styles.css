@@ -133,6 +133,7 @@
     padding: 13px;
 }
 
+
 /* Main Banner Section Design */
 
 .main-banner-section{
@@ -181,9 +182,9 @@
     
 }
 .piller-content div{
-    height: 280px;
+    height: 350px;
     width: 280px;
-    box-sizing: border-box;
+   
     background: rgb(255, 255, 255);
     padding-left: 14px;
     padding-top: 19px;
@@ -192,6 +193,68 @@
     border: 1px solid rgba(14, 14, 14, 0.15)
 }
 .piller-content h2{
-    margin: 10px 0px 10px 0px;
+    margin: 10px 0px 10px 0px; 
+}
+
+/* Vision Section Style */
+.vision-section{
+    width: 1157px;
+    margin-top: 80px;
     
+}
+.vision-section p{
+    margin-top: 20px;
+}
+.vision-content{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+   gap: 57px;
+
+}
+.vision-content div{
+    border-radius: 10px;
+    padding: 37px;
+    height: 240px;
+    width: 270px;
+}
+.vision-content h1,p,img{
+    
+    margin-bottom: 15px;
+}
+.vision-box1{
+    background: rgba(84, 144, 245, 0.2);
+    
+}
+.vision-box1 button{
+    padding: 8px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    background-color: rgb(84, 144, 245);
+}
+.vision-box2{
+    background: rgb(198, 228, 214);
+    
+}
+.vision-box2 button{
+    padding: 8px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    background-color: rgb(9, 161, 92);
+    margin-top: 14px;
+}
+.vision-box3{
+    background: rgb(247, 235, 207);
+    
+}
+.vision-box3 button{
+    padding: 8px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    background-color: rgb(255, 194, 57);
+    margin-top: 14px;
 }
