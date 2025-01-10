@@ -288,3 +288,45 @@ background-attachment: local;
 .younus-section p,h4{
     margin-top: 10px;
 }
+
+/* recent news design */
+
+.recent-news-section{
+    width: 1157px;
+    margin-top: 50px;
+}
+.recent-news-content{
+    display: flex;
+    
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 40px;
+    gap: 50px;
+    border: none;
+    border-radius: 30px;
+    background-color: azure;
+    padding: 20px;
+}
+.recent-news-content button{
+    padding: 16px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    background-color: rgb(9, 161, 92);
+    margin-top: 14px;
+}
+.recent-news-content p{
+    margin-top: 20px;
+}
+.recent-news-content img{
+    margin-top: 20px;
+}
+.recent-news-content .satelite{
+    border-radius: 30px;
+}
+.recent-news-section h1{
+    margin-bottom: 20px;
+}
+.recent-news-section .reverse{
+    flex-direction: row-reverse;
+}
