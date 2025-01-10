@@ -1,12 +1,125 @@
+/* Font Style */
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+.fira-sans-thin {
+    font-family: "Fira Sans", serif;
+    font-weight: 100;
+    font-style: normal;
+  }
+  
+  .fira-sans-extralight {
+    font-family: "Fira Sans", serif;
+    font-weight: 200;
+    font-style: normal;
+  }
+  
+  .fira-sans-light {
+    font-family: "Fira Sans", serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  .fira-sans-regular {
+    font-family: "Fira Sans", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .fira-sans-medium {
+    font-family: "Fira Sans", serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  .fira-sans-semibold {
+    font-family: "Fira Sans", serif;
+    font-weight: 600;
+    font-style: normal;
+  }
+  
+  .fira-sans-bold {
+    font-family: "Fira Sans", serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .fira-sans-extrabold {
+    font-family: "Fira Sans", serif;
+    font-weight: 800;
+    font-style: normal;
+  }
+  
+  .fira-sans-black {
+    font-family: "Fira Sans", serif;
+    font-weight: 900;
+    font-style: normal;
+  }
+  
+  .fira-sans-thin-italic {
+    font-family: "Fira Sans", serif;
+    font-weight: 100;
+    font-style: italic;
+  }
+  
+  .fira-sans-extralight-italic {
+    font-family: "Fira Sans", serif;
+    font-weight: 200;
+    font-style: italic;
+  }
+  
+  .fira-sans-light-italic {
+    font-family: "Fira Sans", serif;
+    font-weight: 300;
+    font-style: italic;
+  }
+  
+  .fira-sans-regular-italic {
+    font-family: "Fira Sans", serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  .fira-sans-medium-italic {
+    font-family: "Fira Sans", serif;
+    font-weight: 500;
+    font-style: italic;
+  }
+  
+  .fira-sans-semibold-italic {
+    font-family: "Fira Sans", serif;
+    font-weight: 600;
+    font-style: italic;
+  }
+  
+  .fira-sans-bold-italic {
+    font-family: "Fira Sans", serif;
+    font-weight: 700;
+    font-style: italic;
+  }
+  
+  .fira-sans-extrabold-italic {
+    font-family: "Fira Sans", serif;
+    font-weight: 800;
+    font-style: italic;
+  }
+  
+  .fira-sans-black-italic {
+    font-family: "Fira Sans", serif;
+    font-weight: 900;
+    font-style: italic;
+  }
+  
 *{
     margin: 0 auto;
     padding: 0 auto;
+    font-family: Fira Sans;
 }
 /* nav section design */
 .nav-section{
-    width: 100%;
+    width: 1280px;
+    height:80px;
     display: flex;
     justify-content: space-between;
+    align-items: center;
     gap: 800px;
     margin-top: 20px;
 }
@@ -16,4 +129,37 @@
     color: rgb(97, 237, 104);
     background-color: white;
     border-radius: 7px;
+    padding: 13px;
+}
+
+/* Main Banner Section Design */
+
+.main-banner-section{
+    display: flex;
+    width: 1098px;
+    height: 448px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(198, 228, 214);
+    margin-top: 40px;
+    border-radius: 24px;
+    padding: 30px;
+    
+}
+.main-banner-section h3{
+   opacity: 0.4; 
+}
+.main-banner-section h1{
+    font-size: 45px;
+    margin-top: 20px;
+}
+.main-banner-section button{
+    margin-top: 30px;
+    padding: 15px;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    background-color: green;
+    font-weight: 400px;
+    
 }
