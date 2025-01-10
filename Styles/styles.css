@@ -1,0 +1,19 @@
+*{
+    margin: 0 auto;
+    padding: 0 auto;
+}
+/* nav section design */
+.nav-section{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    gap: 800px;
+    margin-top: 20px;
+}
+.nav-section button{
+    
+    border: 1px solid green;
+    color: rgb(97, 237, 104);
+    background-color: white;
+    border-radius: 7px;
+}
