@@ -114,6 +114,10 @@
     font-family: Fira Sans;
     
 }
+body{
+  background-color: #f5f5f5;
+  max-width: 1100px;
+}
 /* button hover  */
 body button:hover{
     background-color: rgb(141, 46, 6);
@@ -121,13 +125,14 @@ body button:hover{
 }
 /* nav section design */
 .nav-section{
-    width: 1280px;
+    width: 1080px;
     height:80px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     gap: 800px;
     margin-top: 20px;
+    
 }
 .nav-section button{
     
@@ -136,6 +141,8 @@ body button:hover{
     background-color: white;
     border-radius: 7px;
     padding: 13px;
+    font-weight: 800;
+    
     
 }
 
@@ -144,7 +151,7 @@ body button:hover{
 
 .main-banner-section{
     display: flex;
-    width: 1098px;
+    width: 1010px;
     height: 448px;
     justify-content: space-between;
     align-items: center;
@@ -175,7 +182,7 @@ body button:hover{
 /* Piller section Style */
 
 .piller-section{
-    width: 1157px;
+    width: 1070px;
     margin-top: 80px;
     
 }
@@ -191,7 +198,7 @@ body button:hover{
     height: 350px;
     width: 280px;
    
-    background: rgb(255, 255, 255);
+    background: #fff;
     padding-left: 14px;
     padding-top: 19px;
     /* box-shadow: 1px 1px 10px 0px black; */
@@ -204,7 +211,7 @@ body button:hover{
 
 /* Vision Section Style */
 .vision-section{
-    width: 1157px;
+    width: 1070px;
     margin-top: 80px;
     
 }
@@ -267,7 +274,7 @@ body button:hover{
 /* younus section design */
 
 .younus-section{
-    width: 1157px;
+    width: 1070px;
     margin-top: 30px;
     background-color: aliceblue;
     border: 1px solid black;
@@ -292,7 +299,7 @@ background-attachment: local;
 /* recent news design */
 
 .recent-news-section{
-    width: 1157px;
+    width: 1070px;
     margin-top: 50px;
 }
 .recent-news-content{
@@ -304,7 +311,7 @@ background-attachment: local;
     gap: 50px;
     border: none;
     border-radius: 30px;
-    background-color: azure;
+    background-color: #fff;
     padding: 20px;
 }
 .recent-news-content button{
@@ -330,3 +337,96 @@ background-attachment: local;
 .recent-news-section .reverse{
     flex-direction: row-reverse;
 }
+
+/* donate section design */
+.donate-section{
+  width: 1070px;
+  margin-top: 40px;
+  text-align: center;
+  
+}
+.donate-section h1,p{
+margin-bottom: 20px;
+}
+.donate-money{
+  display: flex;
+  gap: 10px;
+  flex-direction:row;
+  width: 750px;
+  
+}
+.money-box{
+ 
+  background-color: #fff;
+  padding: 30px;
+  height: 20px;
+  width: 120px;
+  margin-top: 30px;
+  border-radius: 10px;
+  
+}
+.color-box{
+  background-color: blanchedalmond;
+}
+.money-box:hover{
+  background-color: cornflowerblue;
+}
+.donate-section input{
+  width: 600px;
+  text-align: center;
+  padding: 10px;
+  margin-top: 14px;
+  font-size: 20px;
+  border-radius: 8px;
+  border: none;
+  margin-bottom: 10px;
+  
+}
+.donate-section button{
+  padding: 16px;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  background-color: rgb(9, 161, 92);
+  margin-top: 14px;
+
+}
+/* subscribe section style */
+
+ .subscriber-section{
+  width: 1070px;
+  text-align: center;
+  margin-top: 50px;
+  background-color: #C6E4D6;
+  padding: 20px;
+  height: 200px;
+   display: flex;
+  align-items: center;
+  justify-content: center; 
+  border-radius: 10px;
+}
+.subscriber-section p{
+  margin: 15px 0px 15px 0px;
+}
+.subscriber-section input{
+padding: 20px 0px 20px 40px;
+width: 400px;
+border-radius: 10px 0px 0px 10px;
+border: none;
+
+}
+.subscriber-section button{
+  padding: 20px;
+  border: none;
+  border-radius: 0px 10px 10px 0px;
+  gap: none;
+  color: white;
+  background-color: rgb(9, 161, 92);
+  position: absolute;
+}
+.input-button{
+  position: relative;
+  padding: 0 16px;
+  margin-right: 100px;
+ 
+} 
