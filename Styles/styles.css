@@ -116,7 +116,7 @@
 }
 body{
   background-color: #f5f5f5;
-  max-width: 1100px;
+  max-width: 12800px;
 }
 /* button hover  */
 body button:hover{
@@ -430,3 +430,20 @@ border: none;
   margin-right: 100px;
  
 } 
+
+/* footer section design */
+
+.last-section{
+  
+  background-color: #fff;
+  margin-top: 50px;
+  text-align: center;
+  padding: 30px;
+  border-radius: 10px;
+}
+.last-section h1,img{
+  padding: 15px;
+}
+.last-section hr{
+  width: 700px;
+}
